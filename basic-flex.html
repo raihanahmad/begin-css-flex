@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Into the css flex</title>
+    <style>
+        .container {
+            color: #f4f4f4;
+            margin-bottom: 3rem;
+            display: flex;
+            /* flex-direction: column; */
+            /* flex-direction: row-reverse; */
+            /* flex-flow: row nowrap; */
+            flex-wrap: wrap;
+        }
+
+        .container .box {
+            background-color: #912;
+            text-align: center;
+            border: solid #066;
+            margin: .5rem;
+            padding: 1rem;
+            flex: 1;
+        }
+
+        .container-2 {
+            color: #f4f4f4;
+            margin-bottom: 3rem;
+            display: flex;
+            flex-direction: column;
+            /* flex-direction: row-reverse; */
+            /* flex-flow: row nowrap; */
+            /* flex-wrap: wrap; */
+        }
+
+        .container-2 .box {
+            background-color: #055;
+            text-align: center;
+            border: solid #505;
+            margin: .5rem;
+            padding: 1rem;
+            /* flex: 1; */
+        }
+
+        .box:last-child {
+            flex: 2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box"> <h1>Flex 1</h1> </div>
+        <div class="box"> <h1>Flex 2</h1> </div>
+        <div class="box"> <h1>Flex 3</h1> </div>
+        <div class="box"> <h1>Flex 3</h1> </div>
+        <div class="box"> <h1>Flex 3</h1> </div>
+        <div class="box"> <h1>Flex 3</h1> </div>
+        <div class="box"> <h1>Flex 3</h1> </div>
+        <div class="box"> <h1>Flex 3</h1> </div>
+        <div class="box"> <h1>Flex 3</h1> </div>
+        <div class="box"> <h1>Flex 3</h1> </div>
+        <div class="box"> <h1>Flex 3</h1> </div>
+        <div class="box"> <h1>Flex 3</h1> </div>
+        <div class="box"> <h1>Flex 3</h1> </div>
+        <div class="box"> <h1>Flex 3</h1> </div>
+        <div class="box"> <h1>Flex 3</h1> </div>
+        <div class="box"> <h1>Flex 3</h1> </div>
+        <div class="box"> <h1>Flex 3</h1> </div>
+        <div class="box"> <h1>Flex 3</h1> </div>
+        <div class="box"> <h1>Flex 3</h1> </div>
+        <div class="box"> <h1>Flex 3</h1> </div>
+    </div> 
+
+    <div class="container-2">
+        <div class="box"> <h1>Flex 1</h1> </div>
+        <div class="box"> <h1>Flex 2</h1> </div>
+        <div class="box"> <h1>Flex 3</h1> </div>
+        <div class="box"> <h1>Flex 3</h1> </div>
+        <div class="box"> <h1>Flex 3</h1> </div>
+        <div class="box"> <h1>Flex 3</h1> </div>
+        <div class="box"> <h1>Flex 3</h1> </div>
+        <div class="box"> <h1>Flex 3</h1> </div>
+
+    </div> 
+</body>
+</html>
